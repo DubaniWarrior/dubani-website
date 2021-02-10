@@ -3,7 +3,7 @@ import TitreStc from './Titre.stc';
 
 const Titre=(props)=>{
     return (
-        <TitreStc couleur={props.couleur} taille={props.taille} poidFont={props.poidFont}>
+        <TitreStc couleur={props.couleur} taille={props.taille} poid_font={props.poid_font}>
             {props.texte}
         </TitreStc>
     )

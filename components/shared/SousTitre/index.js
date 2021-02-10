@@ -5,10 +5,10 @@ const SousTitre=(props)=>{
     return (
         <SousTitreStc 
                 couleur={props.couleur} 
-                margeHaut={props.margeHaut} 
-                margeBas={props.margeBas}
+                margeHaut={props.marge_haut} 
+                margeBas={props.marge_bas}
                 taille={props.taille} 
-                poidFont={props.poidFont}>
+                poidFont={props.poid_font}>
             {props.texte}
         </SousTitreStc>
     )
