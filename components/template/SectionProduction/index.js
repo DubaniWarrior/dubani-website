@@ -7,7 +7,7 @@ import SectionProductionStc from './SectionProduction.stc';
 const SectionProduction = (props) => {
   return (
    
-        <SectionProductionStc>
+        <SectionProductionStc className="section">
            <Container>
                 <Row>
                     <Col lg={12}>

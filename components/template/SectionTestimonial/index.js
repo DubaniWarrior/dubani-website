@@ -6,7 +6,7 @@ import MoleculeTestimonial from '../../molecule/MoleculeTestimonial';
 const SectionTestimonial = (props) => {
   return (
    
-        <SectionTestimonialStc>
+        <SectionTestimonialStc className="section">
             <Container>
                 <Row>
                     <Col lg={12}>

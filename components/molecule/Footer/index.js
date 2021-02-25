@@ -23,6 +23,7 @@ const Footer = (props) => {
             <Container>
                 <Row>
                     <Col md={3}>
+                    
                         <MonImage 
                             chemin="/img/fpic1.svg"
                             largeur="100"
@@ -39,6 +40,7 @@ const Footer = (props) => {
                             à titre provisoire pour calibrer une mise en page, le texte définitif venant 
                             remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. 
                         </Texte>
+                        <div className="green block">c</div>
                     </Col>
                     <Col md={6}>
                         <MonImage 
@@ -47,6 +49,7 @@ const Footer = (props) => {
                         />
                     </Col>
                     <Col md={3} className="divMenu">
+                    
                         <ul>
                             {
                                 Menus.map((menu,index)=><ElementMenu couleur="#fff" key={index} taille="22px" marge_bas="40px" texte={menu.texte} lien={menu.lien} />)

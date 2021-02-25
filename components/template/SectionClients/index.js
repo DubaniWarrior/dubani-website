@@ -7,7 +7,7 @@ import SectionClientStc from './SectionClient.stc';
 const SectionClient = (props) => {
   return (
    
-        <SectionClientStc>
+        <SectionClientStc className="section">
            <Row>
                 <Col lg={12}>
                     <MoleculeHead />    

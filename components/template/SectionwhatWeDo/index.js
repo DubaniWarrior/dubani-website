@@ -15,7 +15,7 @@ const WeDo=[
 const SectionWhatWeDo=()=>{
 
     return(
-        <SectionWhatWeDoStc>
+        <SectionWhatWeDoStc className="section">
             <Container>
                 <Row>
                     <Col lg={6} >

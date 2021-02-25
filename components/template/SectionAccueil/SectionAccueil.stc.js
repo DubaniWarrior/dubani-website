@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 
 const SectionAccueilStc=Styled(Container)`
    padding-bottom:40px;
-   height:100vh;
+   height:100vh !important;
    padding-top:33%;
    overflow:hidden;
 

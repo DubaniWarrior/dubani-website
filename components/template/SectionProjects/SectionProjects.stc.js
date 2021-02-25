@@ -6,6 +6,6 @@ const SectionProjectStc=Styled.section`
    color:#fff;
    padding-top:10%;
    padding-bottom:80px;
-   height:100vh;
+   height:100vh !important;
 `;
 export default SectionProjectStc;

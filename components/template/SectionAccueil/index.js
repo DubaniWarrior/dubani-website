@@ -34,7 +34,7 @@ const SectionAccueil = (props) => {
 
   return (
    
-        <SectionAccueilStc>
+        <SectionAccueilStc className="section">
            <Row>
             <Col lg={6}>
                     <MoleculeLeft reference={molGauche} />
